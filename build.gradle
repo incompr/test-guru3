@@ -1,13 +1,13 @@
 plugins {
-    id 'java-library'
+    id 'java'
 }
+
+group 'org.example'
+version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
 }
-
-group 'guru.qa'
-version '1.0'
 
 dependencies {
     testImplementation (
